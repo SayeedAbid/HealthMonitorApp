@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter Your Info"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="signUp"
+        android:text="Register"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editfirstName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editage"
+        app:layout_constraintEnd_toStartOf="@+id/editlastName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editlastName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editfirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editfirstName" />
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editspinnerSex"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editspinnerSex" />
+
+    <EditText
+        android:id="@+id/editweight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editheight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editheight" />
+
+    <EditText
+        android:id="@+id/editheight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Height (cm)"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/editweight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editspinnerSex" />
+
+    <Spinner
+        android:id="@+id/editspinnerSex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
+        android:text="Gender"
+        app:layout_constraintBottom_toTopOf="@+id/editspinnerSex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editage" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="29dp"
+        android:text="*You can change these information later."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editweight" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:text="User Registration"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:textSize="30sp"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/resetEmail"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="25dp"-->
+    <!--android:layout_marginTop="263dp"-->
+    <!--android:layout_marginEnd="25dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Email"-->
+    <!--android:inputType="textPersonName"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/userPassword"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="25dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:layout_marginEnd="25dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Password"-->
+    <!--android:inputType="textPassword"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/resetEmail" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/saveButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="32dp"-->
+    <!--android:layout_marginEnd="20dp"-->
+    <!--android:onClick="signUp"-->
+    <!--android:text="Register"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/textView4"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/confirmPassword" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/confirmPassword"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="25dp"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:layout_marginEnd="25dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Confirm Password"-->
+    <!--android:inputType="textPassword"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/userPassword" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editfirstName"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="27dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginBottom="16dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="First Name"-->
+    <!--android:inputType="textPersonName"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/editage"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/editlastName"-->
+    <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editlastName"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="26dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Last Name"-->
+    <!--android:inputType="textPersonName"-->
+    <!--app:layout_constraintBaseline_toBaselineOf="@+id/editfirstName"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/editfirstName" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editage"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="27dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Age"-->
+    <!--android:inputType="number"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/editspinnerSex"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/textView"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/editspinnerSex" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editweight"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="26dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Weight (kg)"-->
+    <!--android:inputType="number"-->
+    <!--app:layout_constraintBaseline_toBaselineOf="@+id/editheight"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/editheight" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/editheight"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="27dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginBottom="13dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Height (cm)"-->
+    <!--android:inputType="number"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/resetEmail"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/editweight"-->
+    <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="14dp"-->
+    <!--android:text="Already have an account ?"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:textSize="18sp"-->
+    <!--app:layout_constraintBaseline_toBaselineOf="@+id/SignInTtextView"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/SignInTtextView"-->
+    <!--app:layout_constraintHorizontal_chainStyle="packed"-->
+    <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/SignInTtextView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="13dp"-->
+    <!--android:layout_marginBottom="34dp"-->
+    <!--android:onClick="userSignIn"-->
+    <!--android:text="@string/action_sign_in_short"-->
+    <!--android:textColor="#073AFA"-->
+    <!--android:textSize="18sp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/textView4" />-->
+
+    <!--<Spinner-->
+    <!--android:id="@+id/editspinnerSex"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="25dp"-->
+    <!--android:layout_marginBottom="16dp"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/editweight"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/editage" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginEnd="153dp"-->
+    <!--android:text="Gender"-->
+    <!--app:layout_constraintBottom_toTopOf="@+id/editspinnerSex"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/editage" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

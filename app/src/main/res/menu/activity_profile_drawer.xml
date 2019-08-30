@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_heartrate"
+            android:icon="@drawable/ic_heart"
+            android:title="Heartrate" />
+        <item
+            android:id="@+id/nav_steps"
+            android:icon="@drawable/ic_directions_run_black"
+            android:title="Steps" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_local_dining"
+            android:title="Diet" />
+        <item
+            android:id="@+id/nav_goal"
+            android:icon="@drawable/ic_target"
+            android:title="Goals"/>
+        <item
+            android:id="@+id/nav_medicine"
+            android:icon="@drawable/ic_local_drink"
+            android:title="Medicine"/>
+        <item
+            android:id="@+id/nav_profileinfo"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_assistant_black_24dp"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_developer_mode_"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

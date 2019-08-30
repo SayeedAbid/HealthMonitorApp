@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "47259707055",
+    "firebase_url": "https://fire-8364e.firebaseio.com",
+    "project_id": "fire-8364e",
+    "storage_bucket": "fire-8364e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:f2236470dab38536",
+        "android_client_info": {
+          "package_name": "com.example.fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-fnefc94a6qu8l2mjurv431b7mcqve1hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fire",
+            "certificate_hash": "50b87f0819ccfa635620bfca063b923f2a54c927"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:f6230a0e6301340e",
+        "android_client_info": {
+          "package_name": "com.example.googlesignindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-84kj6ug4k74mamhpobe8i7mftvj5eiis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlesignindemo",
+            "certificate_hash": "6631c0f18db3de1197b13c1152469dcd4284f79d"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:57a34d726abd2d2e",
+        "android_client_info": {
+          "package_name": "com.example.healthmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-mlngvsg15ilceu7bt81pp66itgv8c88v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthmonitor",
+            "certificate_hash": "6631c0f18db3de1197b13c1152469dcd4284f79d"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:6a708d715d3edbed",
+        "android_client_info": {
+          "package_name": "com.example.healthmonitorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-cj0kq3oo640j8n4d5nvgn505uh43ufad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthmonitorapp",
+            "certificate_hash": "6631c0f18db3de1197b13c1152469dcd4284f79d"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:84f93a7d15423eaf",
+        "android_client_info": {
+          "package_name": "com.example.heartratedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-kbgr4ik25mbpu7fi298hpe2el6r1tptm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heartratedemo",
+            "certificate_hash": "6631c0f18db3de1197b13c1152469dcd4284f79d"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:644f80f50ab8d0f5",
+        "android_client_info": {
+          "package_name": "com.example.projdem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-a4bifjn5b0bbh9ifcsl2gn6m693170d0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projdem",
+            "certificate_hash": "50b87f0819ccfa635620bfca063b923f2a54c927"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47259707055:android:185a639495086c53",
+        "android_client_info": {
+          "package_name": "com.example.projecthealthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47259707055-8kgddqu6vq80r2qcs19i6s2amohua7sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projecthealthapp",
+            "certificate_hash": "6631c0f18db3de1197b13c1152469dcd4284f79d"
+          }
+        },
+        {
+          "client_id": "47259707055-ohcv8hv6sgdc8i3c7ls6ecbnq4m3sdts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvxg2JrVCvipkuw8dBgp_tJfxdUY8Mmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47259707055-0vqb73mgelsug98cuf16htquka2g1rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
